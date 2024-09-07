@@ -64,18 +64,18 @@ nav a {
 
 .form>form>input {
     width: 80%;
-    background-color: rgba(0,0,0,.05);
+    background-color: rgba(0, 0, 0, .05);
     border-style: hidden;
 }
 
 .form>form>img {
-    background-color: rgba(0,0,0,.05);
+    background-color: rgba(0, 0, 0, .05);
 }
 
 .form>form>button {
     background-color: #FB3E44;
     color: white;
-    border-style: hidden ;
+    border-style: hidden;
 }
 
 .buttons {
@@ -101,4 +101,59 @@ nav a {
 
 #Join {
     border: 1px solid black;
+}
+
+#first-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    background-color: rgba(232, 217, 217, .3);
+}
+
+#first-section>h1 {
+    font-size: 5em;
+    margin: 0;
+}
+
+#first-section>article {
+    width: 35em;
+    margin: 2.5em 0 0 0;
+
+    p {
+        font-size: 1.25em;
+        text-align: center;
+    }
+}
+
+#first-section>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 35em;
+    height: 7em;
+}
+
+#first-section>div>a {
+    text-decoration: none;
+    width: 50%;
+    height: 2.5em;
+    text-align: center;
+
+}
+
+#see-plans {
+    line-height: 2.5em;
+    background-color: #FB3E44;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    color: white;
+    font-size: large;
+}
+
+#join-for-free{
+    font-weight: 750;
+    line-height: 2.5em;
+    color: black;
 }
