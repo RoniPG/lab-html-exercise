@@ -157,3 +157,35 @@ nav a {
     line-height: 2.5em;
     color: black;
 }
+
+#second-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    background-color: rgba(232, 217, 217, .3);
+}
+
+#second-section > img{
+    height: 10em;
+    width: 10em;
+}
+
+#second-section > h2{
+    width: 25em;
+    background-color: rgba(255,204,53,.4);
+    font-style: italic;
+    transform: skew(9deg,0deg);
+    text-align: center;
+    font-size: xx-large;
+}
+
+#second-section > article{
+    border: 5px solid yellow;
+    width: 40em;
+    p{  
+        font-size: small;
+        text-align: center;
+    }
+}
