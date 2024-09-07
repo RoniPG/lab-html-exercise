@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Document</title>
 </head>
 
@@ -27,17 +28,21 @@
     </div>
 
     <div>
-      <!-- add logo, search bar and buttons (or links and style them as buttons later) -->
-      <img src="images/npm-logo.png" alt="npm logo" class="npm-logo">
-      <img src="images/magnifying-glass.png" alt="magnifying glass" srcset="magnifying-glass">
-      <br>
-      <a href="#" target="_blank" rel="noopener noreferrer">Join</a>
-      <a href="#" target="_blank" rel="noopener noreferrer">Log In</a>
-      <form action="">
-        <input type="text" placeholder="Search packages">
-        <button type="button">Search</button>
-      </form>
-
+      <div class="npm">
+        <!-- add logo, search bar and buttons (or links and style them as buttons later) -->
+        <img src="images/npm-logo.png" alt="npm logo" class="npm-logo">
+      </div>
+      <div class="form">
+        <form class="search" action="">
+          <img src="images/magnifying-glass.png" alt="magnifying glass" srcset="magnifying-glass">
+          <input type="text" placeholder="Search packages">
+          <button type="button">Search</button>
+        </form>
+      </div>
+      <div class="buttons">
+        <a class="link-btn" id="Join" href="#" target="_blank" rel="noopener noreferrer">Join</a>
+        <a class="link-btn" id="LogIn" href="#" target="_blank" rel="noopener noreferrer">Log In</a>
+      </div>
     </div>
   </header>
   <section>
